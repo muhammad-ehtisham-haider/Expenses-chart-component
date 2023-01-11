@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:   hsl(27, 66%, 92%);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+main{
+    width: 30%;
+}
+.upper{
+    background-color: hsl(10, 79%, 65%);
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.bars{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.graps{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    text-align: center;
+}
+.one{
+    background-color:  hsl(10, 79%, 65%);
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.two{
+    background-color:  hsl(10, 79%, 65%);
+    height: 60px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.three{
+    background-color: hsl(186, 34%, 60%) ;
+    height: 90px;
+    width: 40px;
+    border-radius: 5px;
+}
+.three:hover{
+    background-color:  hsl(185, 41%, 89%) ;
+    cursor: pointer;
+}
+.four{
+    background-color:  hsl(10, 79%, 65%);
+    height: 55px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.four:hover{
+    background-color: hsl(31, 78%, 87%) ;
+}
+.five{
+    background-color:  hsl(10, 79%, 65%);
+    height: 45px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.six{
+    background-color:  hsl(10, 79%, 65%);
+    height: 80px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seven{
+    background-color:  hsl(10, 79%, 65%);
+    height: 50px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rate, #rateone{
+  
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    padding: 4px 2px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+hr{
+    margin-top: 20px;
+}
+.second{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zero{
+    display: none;
+}
+.zeroone{
+    visibility: hidden;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
